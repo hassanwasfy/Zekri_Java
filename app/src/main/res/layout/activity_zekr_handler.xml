@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3DA92"
+    tools:context=".UI.ZekrHandlerActivity">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/show_zekr_name"
+        android:gravity="center"
+        android:textColor="@color/my_brown_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/show_zekr_name"
+        android:textSize="@dimen/_30ssp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/line_1"
+        tools:viewBindingIgnore="true"
+        android:layout_marginStart="@dimen/_50sdp"
+        android:layout_marginEnd="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:background="@color/my_brown_3"
+        app:layout_constraintTop_toBottomOf="@id/show_zekr_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_3sdp"/>
+
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/show_zekr_process"
+        android:textColor="@color/my_brown_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/zero_sample"
+        android:textSize="@dimen/_22ssp"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_50sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/show_zekr_name" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/show_zekr_percent"
+        android:textColor="@color/my_brown_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/zero_sample"
+        android:textSize="@dimen/_22ssp"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_25sdp"
+        app:layout_constraintEnd_toStartOf="@id/show_zekr_target"
+        app:layout_constraintStart_toEndOf="@id/show_zekr_process"
+        app:layout_constraintTop_toBottomOf="@+id/show_zekr_name" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/show_zekr_target"
+        android:textColor="@color/my_brown_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/zero_sample"
+        android:textSize="@dimen/_22ssp"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_50sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/show_zekr_name" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnZekrClicker"
+        android:layout_margin="@dimen/_15sdp"
+        android:text="@string/one_sample"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_100ssp"
+        android:background="@drawable/btn_click"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/show_zekr_percent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

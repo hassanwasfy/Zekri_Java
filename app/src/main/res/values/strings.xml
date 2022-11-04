@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zekri</string>
+    <string name="_1_zekr_name_and_id">1- Zekr Name and ID</string>
+    <string name="tv_zekr_process">00%</string>
+    <string name="fab">Fab</string>
+    <string name="edit_zekr">Edit Zekr</string>
+    <string name="delete_zekr">Delete Zekr</string>
+    <string name="save">Save</string>
+    <string name="update_zekr_name">Update Zekr Name</string>
+    <string name="update_zekr_target">Update Zekr Target</string>
+    <string name="update_zekr_process">Update Zekr Process</string>
+    <string name="enter_zekr_name">Enter Zekr Name</string>
+    <string name="enter_zekr_target">Enter Zekr Target</string>
+    <string name="add_zekr">Add Zekr</string>
+    <string name="save_now">Save</string>
+    <string name="toastData">Please Fill Data</string>
+    <string name="toastAdded">Zekr Added successfully</string>
+    <string name="edit_zekr_head">Edit Zekr</string>
+    <string name="show_zekr_name">Show Zekr Name</string>
+    <string name="zero_sample">00</string>
+    <string name="one_sample">+1</string>
+    <string name="canceled">Canceled</string>
+    <string name="targetAchieved">Target Achieved</string>
+    <string name="reset_zekr">Reset Zekr</string>
+    <string name="reset_zekr_success">Zekr Reset successfully</string>
+    <string name="edit_saved">Edit Saved</string>
+    <string name="deleteToast">Deleted successfully</string>
+    <string name="fillData">Please Fill Data</string>
+</resources>
