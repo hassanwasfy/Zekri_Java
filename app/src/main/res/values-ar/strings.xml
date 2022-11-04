@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ذكرى</string>
+    <string name="_1_zekr_name_and_id">1- الإسم و المعرف</string>
+    <string name="tv_zekr_process">00%</string>
+    <string name="fab">Fab</string>
+    <string name="edit_zekr">تعديل الذكر</string>
+    <string name="delete_zekr">مسح الذكر</string>
+    <string name="save">حفظ</string>
+    <string name="update_zekr_name">تعديل اسم الذكر</string>
+    <string name="update_zekr_target">تعديل الهدف المطلوب</string>
+    <string name="update_zekr_process">تعديل المستوى الحالى</string>
+    <string name="enter_zekr_name">أدخل اسم الذكر</string>
+    <string name="enter_zekr_target">أدخل الهدف المراد</string>
+    <string name="add_zekr">أضف الذكر</string>
+    <string name="save_now">حفظ</string>
+    <string name="toastData">برجاء ملء البيانات</string>
+    <string name="toastAdded">تم الحفظ بنجاح</string>
+    <string name="edit_zekr_head">تعديل الذكر</string>
+    <string name="show_zekr_name">أظهر اسم الذكر</string>
+    <string name="zero_sample">00</string>
+    <string name="one_sample">+1</string>
+    <string name="canceled">تم الإلغاء</string>
+    <string name="targetAchieved">انتهى اللهم بارك</string>
+    <string name="reset_zekr">إعادة بدء</string>
+    <string name="reset_zekr_success">تمت التهيئة بنجاح</string>
+    <string name="edit_saved">تم حفظ التعديل</string>
+    <string name="deleteToast">تم المسح بنجاح</string>
+    <string name="fillData">برجاء ملء البيانات</string>
+</resources>
